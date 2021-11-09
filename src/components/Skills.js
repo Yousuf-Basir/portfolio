@@ -44,7 +44,7 @@ const features = [
     },
     {
         name: 'Oracle cloud infrastructure',
-        icon: "/oracle-logo.png",
+        icon: "oracle-logo.png",
         desc: "Experienced in deploying full stack web application in Linux environment to Oracle Cloud Infrastructure.",
         padding: "px-4"
     },

@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function LogoCloud() {
     return (
-        <div id="logocloud" className="bg-opacity-25">
+        <div id="logocloud" className="bg-opacity-25 z-10">
             <div className="max-w-7xl mx-auto pb-16 px-4 sm:px-6 lg:px-8">
                 <div className="lg:grid lg:grid-cols-2 lg:gap-8">
                     <div>

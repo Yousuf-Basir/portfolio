@@ -9,7 +9,7 @@ const posts = [
         category: { name: 'React, Express.js, MySql, Oracle Cloud', href: '#' },
         description:
             'Built a full-stack web app that allow users to read, organize and share e-books (pdf, epub, mobi, kindle files) from any device.',
-        imgSrc: ["/project-screenshots/inknest2.png", "/project-screenshots/inknest1.png"],
+        imgSrc: ["project-screenshots/inknest2.png", "project-screenshots/inknest1.png"],
         liveLink: "http://146.56.54.187:8082/"
     },
     {
@@ -18,7 +18,7 @@ const posts = [
         category: { name: 'Next.js, TypeScript, Heroku', href: '#' },
         description:
             'Built a web app where user can search movies then save the movie on cloud storage and watch from any device. Implemented using Next.js for node.js based server and SSR with React.js.',
-        imgSrc: ["/project-screenshots/protorrent3.png", "/project-screenshots/protorrent2.png"],
+        imgSrc: ["project-screenshots/protorrent3.png", "project-screenshots/protorrent2.png"],
         liveLink: "https://protorrent-app.herokuapp.com/"
     },
     {
@@ -27,7 +27,7 @@ const posts = [
         category: { name: 'React, Node.js, Natural Language Proccessing, Heroku', href: '#' },
         description:
             'Developed a voice assistant using NLP that can be trained simply by giving voice commands in Bangla to answer any custom question. Application will retrain itself each time user teach it what to say for a specific question.',
-        imgSrc: ["/project-screenshots/voiceassist1.png", "/project-screenshots/voiceassist2.png"]
+        imgSrc: ["project-screenshots/voiceassist1.png", "project-screenshots/voiceassist2.png"]
     },
     {
         title: 'Inventory management system',
@@ -35,7 +35,7 @@ const posts = [
         category: { name: 'React, Firebase', href: '#' },
         description:
             'Inventory management system with basic functionalities.',
-        imgSrc: ["/project-screenshots/inventory1.png", "/project-screenshots/inventory2.png"],
+        imgSrc: ["project-screenshots/inventory1.png", "project-screenshots/inventory2.png"],
     },
     {
         title: 'Corona Jiggasha',
@@ -43,7 +43,7 @@ const posts = [
         category: { name: 'React, Node.js, Natural Language Proccessing', href: '#' },
         description:
             "করোনা জিজ্ঞাসা is a voice assistant app that can understand your bangla spoken voice and talks to you in bangla to provide information about the Corona virus and it's pandemic",
-        imgSrc: ["/project-screenshots/coronajiggasha1.jpg", "/project-screenshots/coronajiggasha2.jpg"],
+        imgSrc: ["project-screenshots/coronajiggasha1.jpg", "project-screenshots/coronajiggasha2.jpg"],
         liveLink: "https://nlp-project-b504d.web.app/"
     },
     {
@@ -52,7 +52,7 @@ const posts = [
         category: { name: 'React, Node.js, Tensorflow.js', href: '#' },
         description:
             "Web application that can capture photo and detect object with prediction confidence using tensorflow image classification training model.",
-        imgSrc: ["/project-screenshots/tensor3.jpg", "/project-screenshots/tensor4.jpg"],
+        imgSrc: ["project-screenshots/tensor3.jpg", "project-screenshots/tensor4.jpg"],
     },
 
 

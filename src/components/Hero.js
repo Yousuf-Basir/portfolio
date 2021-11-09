@@ -27,7 +27,7 @@ export default function Hero() {
                             <div className="rounded-md shadow">
                                 <a
                                     download
-                                    href="/JOARDER YOUSUF BASIR RESUME.pdf"
+                                    href="JOARDER YOUSUF BASIR RESUME.pdf"
                                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-pink-600 hover:bg-pink-700 md:py-4 md:text-lg md:px-10"
                                 >
                                     Resume
@@ -77,7 +77,7 @@ export default function Hero() {
                             <span className="sr-only">Watch our video to learn more</span>
                             <img
                                 className="w-full"
-                                src="/me.webp"
+                                src="me.webp"
                                 alt=""
                             />
                         </div>
