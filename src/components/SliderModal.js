@@ -3,20 +3,24 @@ import { Fragment, useRef, useState } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/dist/css/splide.min.css';
+import {XCircleIcon} from "@heroicons/react/solid"
 
 export default function SliderModal({ open, setOpen, project }) {
     const cancelButtonRef = useRef(null)
 
-    if (!project) {
-        return null
-    }
+    // if (!project) {
+    //     return null
+    // }
+    useEffect(()=>{
+        console.log(project)
+    }, [])
 
     return (
         <Transition.Root show={open || false} as={Fragment}>
             <Dialog
                 as="div"
                 static
-                className="fixed z-10 inset-0 overflow-y-auto"
+                className="fixed z-50 inset-0 overflow-y-auto"
                 initialFocus={cancelButtonRef}
                 open={open || false}
                 onClose={setOpen}
@@ -49,18 +53,21 @@ export default function SliderModal({ open, setOpen, project }) {
                     >
 
                         <div className="space-y-8 inline-block align-bottom bg-white rounded-lg px-4 pt-5 pb-4 text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-5xl sm:w-full sm:p-6">
+                            <div className="flex justify-end">
+                                <XCircleIcon onClick={()=>setOpen(false)} className="h-12 w120 cursor-pointer" />
+                            </div>
                             <Splide 
                              options={ {
                                 rewind: true,
                               } }>
                                 {
-                                    project.imgSrc.map((src, i) => (
+                                    project? project.imgSrc.map((src, i) => (
                                         <SplideSlide key={i}>
                                             <div className="w-full h-auto lg:h-screen flex items-center justify-center">
                                                 <img src={src} className="h-auto lg:h-screen" alt="project screenshot" />
                                             </div>
                                         </SplideSlide>
-                                    ))
+                                    )):null
                                 }
 
                             </Splide>

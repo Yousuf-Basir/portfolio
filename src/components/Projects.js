@@ -9,7 +9,15 @@ const posts = [
         category: { name: 'React, Express.js, MySql, Oracle Cloud', href: '#' },
         description:
             'Built a full-stack web app that allow users to read, organize and share e-books (pdf, epub, mobi, kindle files) from any device.',
-        imgSrc: ["project-screenshots/inknest2.png", "project-screenshots/inknest1.png"],
+        imgSrc: [
+            "project-screenshots/inknest2.png", 
+            "project-screenshots/inknest1.png",
+            "project-screenshots/inknest3.png",
+            "project-screenshots/inknest4.png",
+            "project-screenshots/inknest5.png",
+            "project-screenshots/inknest6.png",
+            "project-screenshots/inknest7.png",
+        ],
         liveLink: "http://146.56.54.187:8082/"
     },
     {
@@ -18,7 +26,13 @@ const posts = [
         category: { name: 'Next.js, TypeScript, Heroku', href: '#' },
         description:
             'Built a web app where user can search movies then save the movie on cloud storage and watch from any device. Implemented using Next.js for node.js based server and SSR with React.js.',
-        imgSrc: ["project-screenshots/protorrent3.png", "project-screenshots/protorrent2.png"],
+        imgSrc: [
+            "project-screenshots/protorrent3.png", 
+            "project-screenshots/protorrent2.png",
+            "project-screenshots/protorrent4.png",
+            "project-screenshots/protorrent5.png",
+            "project-screenshots/protorrent1.png",
+        ],
         liveLink: "https://protorrent-app.herokuapp.com/"
     },
     {
@@ -27,7 +41,7 @@ const posts = [
         category: { name: 'React, Node.js, Natural Language Proccessing, Heroku', href: '#' },
         description:
             'Developed a voice assistant using NLP that can be trained simply by giving voice commands in Bangla to answer any custom question. Application will retrain itself each time user teach it what to say for a specific question.',
-        imgSrc: ["project-screenshots/voiceassist1.png", "project-screenshots/voiceassist2.png"]
+        imgSrc: ["project-screenshots/voiceassist1.png", "project-screenshots/voiceassist2.png", "project-screenshots/voiceassist3.png", "project-screenshots/voiceassist4.png"]
     },
     {
         title: 'Inventory management system',
@@ -60,7 +74,13 @@ const posts = [
 
 export default function Projects() {
     const [selectedProject, setSelectedProject] = useState();
-    const [open, setOpen] = useState(false)
+    const [open, setOpen] = useState(false);
+
+    const handlePreview = (post) => {
+        console.log("opening")
+        setSelectedProject(post); 
+        setOpen(true); 
+    }
 
     return (
         <div id="projects" className="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
@@ -105,10 +125,7 @@ export default function Projects() {
                                             : null
                                     }
                                     <button
-                                        onClick={()=>{
-                                            setSelectedProject(post); setOpen(true)
-                                        }}
-                                        type="button"
+                                        onClick={()=>handlePreview(post)}
                                         className="inline-flex items-center px-4 py-2 border border-gray-300 shadow-sm text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-500"
                                     >
                                         Preview
