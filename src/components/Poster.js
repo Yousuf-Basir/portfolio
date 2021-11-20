@@ -6,9 +6,9 @@ export default function Poster({title, img1Src, img2Src}) {
             
             <div className="flex h-full space-x-4">
                 <div className="w-1/2 h-full flex items-center">
-                    <img className="object-contain shadow-lg" src={img1Src} />
+                    <img className="object-contain shadow-lg" alt={title} src={img1Src} />
                 </div>
-                <img className="w-1/2 object-cover shadow-lg" src={img2Src} />
+                <img className="w-1/2 object-cover shadow-lg" alt={title} src={img2Src} />
             </div>
 
             

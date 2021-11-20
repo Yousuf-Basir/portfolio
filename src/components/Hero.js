@@ -12,7 +12,7 @@ export default function Hero() {
                         </span>
                         <span className="mt-1 block text-4xl tracking-tight font-extrabold sm:text-5xl xl:text-6xl">
                             <span className="block text-gray-900">Joarder Yousuf Basir</span>
-                            <span className="block text-3xl text-pink-600 mt-2">Full stack Javscript Developer</span>
+                            <span className="block text-3xl text-pink-600 mt-2">Full stack JavaScript Developer</span>
                         </span>
                     </h1>
                     <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
@@ -30,7 +30,7 @@ export default function Hero() {
                                     href="JOARDER YOUSUF BASIR RESUME.pdf"
                                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-pink-600 hover:bg-pink-700 md:py-4 md:text-lg md:px-10"
                                 >
-                                    Resume
+                                    Download Resume
                                 </a>
                             </div>
                             <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
@@ -74,7 +74,7 @@ export default function Hero() {
 
                             className="relative block w-full bg-transparent rounded-lg overflow-hidden outline-none ring-2 ring-pink-700"
                         >
-                            <span className="sr-only">Watch our video to learn more</span>
+                            <span className="sr-only">Profile image of Joarder Yousuf Basir</span>
                             <img
                                 className="w-full"
                                 src="me.webp"

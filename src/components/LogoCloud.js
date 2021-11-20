@@ -24,7 +24,7 @@ export default function LogoCloud() {
                                 <img
                                     className="h-6 md:h-8 lg:h-12"
                                     src="https://cdn.cdnlogo.com/logos/l/74/linkedin.svg"
-                                    alt="Workcation"
+                                    alt="linkedin logo"
                                 />
                             </a>
                             <a
@@ -33,7 +33,7 @@ export default function LogoCloud() {
                                 type="button"
                                 className="inline-flex items-center px-6 py-3 border border-gray-300 shadow-sm text-base font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-500"
                             >
-                                <img className="h-6 md:h-8 lg:h-12" src="https://cdn.cdnlogo.com/logos/g/31/github.svg" alt="Tuple" />
+                                <img className="h-6 md:h-8 lg:h-12" src="https://cdn.cdnlogo.com/logos/g/31/github.svg" alt="github logo" />
                             </a>
                             <a
                                 target="_blank"
@@ -41,7 +41,7 @@ export default function LogoCloud() {
                                 type="button"
                                 className="inline-flex items-center px-6 py-3 border border-gray-300 shadow-sm text-base font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-500"
                             >
-                                <img className="h-6 md:h-8 lg:h-12" src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Level" />
+                                <img className="h-6 md:h-8 lg:h-12" src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="dev.to logo" />
                             </a>
                             {/* <div className="mt-4 ml-8 flex flex-grow flex-shrink-0 justify-center lg:flex-grow-0 lg:ml-4">
                                 <img className="h-12" src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Level" />

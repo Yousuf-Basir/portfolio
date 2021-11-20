@@ -64,7 +64,7 @@ export default function SliderModal({ open, setOpen, project }) {
                                     project? project.imgSrc.map((src, i) => (
                                         <SplideSlide key={i}>
                                             <div className="w-full h-auto lg:h-screen flex items-center justify-center">
-                                                <img src={src} className="h-auto lg:h-screen" alt="project screenshot" />
+                                                <img alt="project screenshot" src={src} className="h-auto lg:h-screen" alt="project screenshot" />
                                             </div>
                                         </SplideSlide>
                                     )):null

@@ -89,8 +89,8 @@ export default function Skills() {
                                                 {
                                                     feature.icon instanceof Array?
                                                     feature.icon.map((ico, i) => (
-                                                        <img key={i} src={ico} className={`h-24 w-24 text-white object-contain ml-2 rounded-md shadow-lg overflow-hidden ${feature.padding?feature.padding:null}`} aria-hidden="true" />
-                                                    )):<img src={feature.icon} className={`h-28 w-48 text-white object-contain rounded-md shadow-lg overflow-hidden ${feature.padding?feature.padding:null}`} aria-hidden="true" />
+                                                        <img alt={feature.name} key={i} src={ico} className={`h-24 w-24 text-white object-contain ml-2 rounded-md shadow-lg overflow-hidden ${feature.padding?feature.padding:null}`} aria-hidden="true" />
+                                                    )):<img alt={feature.name} src={feature.icon} className={`h-28 w-48 text-white object-contain rounded-md shadow-lg overflow-hidden ${feature.padding?feature.padding:null}`} aria-hidden="true" />
                                                 }
                                             </span>
                                         </div>
